@@ -36,7 +36,7 @@ export default function Home() {
     <div id='screen' className="w-screen bg-[#080518] flex justify-center text-white">
       <div id='body' className="w-full lg:w-3/4 flex flex-col items-center text-base">
         <div id='header' className="w-full flex justify-between items-center py-8 px-4 sticky top-0 bg-[#080518] z-20">
-          <img src='/ygmi.svg' className="h-6"/>
+          <img src='/webp/ygmi.webp' className="h-6"/>
           <button onClick={handleScroll} className="text-sm lg:text-base px-8 py-3 rounded-xl bg-gradient-to-b from-[#5039F7] to-[#7764FD] hover:cursor-pointer border-t-2 border-[#A194FF]">Apply now</button>
         </div>
         <div id='first-title' className="flex flex-col items-center">
@@ -107,7 +107,7 @@ export default function Home() {
         <div id='more-info' className="my-20 lg:my-48 px-4">
           <div id='top-level-large-screens' className="lg:flex items-end">
             <div id='power-quests' className="block lg:hidden bg-gradient-to-b from-neutral-700 to-[#0f0e16] p-[1px] rounded-xl h-[450px] relative lg:mr-8">
-              <div id='power-quests-body' className="h-full w-full bg-[#0f0e16] rounded-xl px-6 py-8 flex flex-col items-center" style={{ backgroundImage: "url('/webp/smallCompass.webp')",
+              <div id='power-quests-body' className="h-full w-full bg-[#0f0e16] rounded-xl px-6 py-8 flex flex-col items-center" style={{ backgroundImage: "url('/webp/smallCompass2.webp')",
               backgroundSize: "cover"}}>
                 <h1 className="w-full text-left text-2xl font-medium">Power Quests !</h1>
                 <h2 className="font-light text-neutral-400 mt-4">Superchase your socials with our engaging quests! Effortlessly reward interactions like never before!</h2>
@@ -118,20 +118,20 @@ export default function Home() {
               backgroundSize: "140%",
               backgroundPosition: "top"}}>
                 <h1 className="w-full text-left text-2xl font-medium">Power Quests !</h1>
-                <h2 className="font-light text-neutral-400 w-f mt-4 w-3/4">Superchase your socials with our engaging quests! Effortlessly reward interactions like never before!</h2>
+                <h2 className="font-light text-neutral-400 w-f mt-4 w-3/4">Supercharge your socials with our engaging quests! Effortlessly reward interactions like never before!</h2>
               </div>
             </div>
-            <div id='leaderboard' className="bg-gradient-to-b from-neutral-700 to-[#0f0e16] p-[1px] rounded-xl lg:w-[350px] h-[600px] lg:h-[475px] relative mt-12 lg:ml-8">
+            <div id='leaderboard' className="bg-gradient-to-b from-neutral-700 to-[#0f0e16] p-[1px] rounded-xl lg:w-[350px] h-[500px] lg:h-[475px] relative mt-12 lg:ml-8">
               <div id='leaderboard-body' className="h-full w-full bg-gradient-to-b from-[#5038f7] to-[#7764fd] rounded-xl h-[350px] px-6 py-8 flex flex-col items-center">
                 <h1 className="w-full text-left text-2xl font-medium">Leaderboard</h1>
                 <h2 className="font-light w-full text-left text-neutral-200 mt-4">Make your community members <br/> feel like winners.</h2>
-                <img className="absolute bottom-0 w-full" src='/webp/leaderboard.webp'/>
+                <img className="absolute bottom-0 w-full" src='/webp/leaderboard2.webp'/>
               </div>
             </div>
           </div>
           <div id='bottom-level-large-screens' className="lg:flex items-start lg:w-full justify-center">
             <div id='rank' className="block lg:hidden bg-gradient-to-b from-neutral-700 to-[#0f0e16] p-[1px] rounded-xl h-[450px] relative mt-12">
-              <div id='rank-body' className="h-full w-full bg-[#0f0e16] rounded-xl h-[350px] px-6 py-8 flex flex-col items-center" style={{ backgroundImage: "url('/webp/smallPyramid.webp')",
+              <div id='rank-body' className="h-full w-full bg-[#0f0e16] rounded-xl h-[350px] px-6 py-8 flex flex-col items-center" style={{ backgroundImage: "url('/webp/smallPyramid2.webp')",
               backgroundSize: "cover",
               backgroundPosition: "center"}}>
                 <h1 className="w-full text-left text-2xl font-medium">Rank and XP System</h1>
@@ -190,7 +190,7 @@ export default function Home() {
           <div id='footer-body' className="w-full lg:w-3/4">
             <div id='top-level' className="lg:flex items-center justify-evenly">
               <div className="lg:w-1/4">
-                <img className="w-36" src='/ygmi.svg'/>
+                <img className="w-36" src='/webp/ygmi.webp'/>
                 <h2 className="mt-6 text-sm font-light text-neutral-400">A solution that empowers your community engagement and amplifies your project outreach.</h2>
               </div>
               <div id='nav' className="flex lg:justify-center w-full lg:w-1/3 mt-12 lg:mt-0 text-sm font-light">
