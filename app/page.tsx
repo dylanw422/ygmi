@@ -117,7 +117,7 @@ export default function Home() {
               <div id='power-quests-body' className="h-full w-full bg-[#0f0e16] rounded-xl px-6 py-8 flex flex-col items-center" style={{ backgroundImage: "url('/webp/smallCompass2.webp')",
               backgroundSize: "cover"}}>
                 <h1 className="w-full text-left text-2xl font-medium">Power Quests !</h1>
-                <h2 className="font-light text-neutral-400 mt-4">Superchase your socials with our engaging quests! Effortlessly reward interactions like never before!</h2>
+                <h2 className="font-light text-neutral-400 mt-4">Supercharge your socials with our engaging quests! Effortlessly reward interactions like never before!</h2>
               </div>
             </div>
             <div id='power-quests' className="hidden lg:block bg-gradient-to-b from-neutral-700 to-[#0f0e16] p-[1px] rounded-xl w-[750px] h-[400px] relative lg:mr-8">
