@@ -1,5 +1,6 @@
 'use client'
 import { useState, useEffect, useRef } from "react"
+import Head from "next/head"
 export default function Home() {
   const [twitter, setTwitter] = useState('')
   const [discord, setDiscord] = useState('')
@@ -34,6 +35,12 @@ export default function Home() {
 
   return (
     <div id='screen' className="w-screen bg-[#080518] flex justify-center text-white">
+      <Head>
+        <title>YGMI</title>
+        <meta property="og:title" content="YGMI"/>
+        <meta property="og:description" content="You're Gonna Make It !"/>
+        <meta property="og:image" content="/logo.png"/>
+      </Head>
       <div id='body' className="w-full lg:w-3/4 flex flex-col items-center text-base">
         <div id='header' className="w-full flex justify-between items-center py-8 px-4 sticky top-0 bg-[#080518] z-20">
           <img src='/webp/ygmi.webp' className="h-6"/>
